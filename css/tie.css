@@ -1,0 +1,40 @@
+@charset 'utf-8';
+
+body,div,header,main,footer,ul,li,h1,h2,h3,p,dl,dt,dd{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;color: #000;}
+.clear{clear:both;}
+
+/* 铁血战士 */
+header{width: 100%;height: 50px;background: #E54847;}
+header img{float: left;margin: 4% 0 0 4%;}
+header p{text-align: center;margin-right: 10%; line-height: 50px;color: #fff;}
+
+/* main con */
+main #con{width: 100%;height: 180px;background: url(../img/p1.jpg) no-repeat left center;background-size: 800%;color: #fff;}
+main #con{position: relative;}
+main #con dt img{width: 28%;float: left;margin: 3% 5% 0 3%;}
+main #con dl dd:nth-of-type(1){font-size: 1.1rem; font-weight:bold;  padding-top:3%;}
+main #con dl dd:nth-of-type(2),main #con dl dd:nth-of-type(3),main #con dl dd:nth-of-type(4),main #con dl dd:nth-of-type(5),main #con dl dd:nth-of-type(6){padding-top:2%;font-size: 0.8rem;}
+main #con dl dd:nth-of-type(3) span{color: #FAAF00;padding-right: 5px; font-size: 1.1rem; font-weight:bold;}
+main #con dl dd:nth-of-type(7){position: absolute;right: 3%;top: 50%;}
+
+/* main riqi */
+main #riqi{width: 100%;height: 40px;overflow: hidden;white-space: nowrap;border-bottom: 1px solid #F4F4F4;}
+main #riqi li,main #inform li{width: 33.3%;float: left;line-height: 40px;text-align: center;font-size: 0.8em;}
+main #riqi li:hover{color: #E54847;}
+main #inform{width: 100%;height: 40px;border-bottom: 1px solid #F4F4F4;}
+main #inform li select{border: none;color: #888;}
+
+/* main place */
+main .place{width: 100%;}
+main .place dl{width: 94%;height: 150px;margin: 8px auto;}
+main .place dl dt{font-size: 1.1rem;}
+main .place dl dt span{font-size: 1.0rem; padding:4px 0;color: #EF4238;padding-left: 5px;}
+main .place dl dd:nth-of-type(1){font-size: 0.9rem;padding:4px 0;color: #999;}
+main .place dl dd:nth-of-type(1) span{float: right;}
+main .place dl dd:nth-of-type(2) ul li{float:left;padding:4px 0;font-size: 0.8rem;border: 1px solid #FAAF00;margin: 1%;padding: 1%;border-radius: 3px;}
+main .place dl dd:nth-of-type(3){font-size: 0.8rem;color: #999;}
+main .place dl dd:nth-of-type(3) span{font-size: 1.3em;width: 10%;height: 10px;background: #57C0F8;color: #fff;border-radius: 3px;margin-right: 2%;}
+main .place dl dd:nth-of-type(4){padding:6px 0;font-size: 0.8rem;color: #999;}
+main .place dl dd:nth-of-type(5){width:100%;border-bottom: 2px solid #F4F4F4;}

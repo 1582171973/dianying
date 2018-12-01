@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body,div,header,main,footer,ul,li,h1,h2,h3,p,dl,dt,dd{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;color: #000;}
+
+/* header */
+header{width: 100%;height: 50px;line-height: 50px;background: #EF4238;color: #fff;text-align: center;}
+/* main top */
+main{width: 100%;overflow: hidden;}
+main #top{width: 100%;height: 50px;margin: 0 auto;border-bottom: 2px solid #F4F4F4;}
+main #top ul li{float: left;text-align: center;line-height: 50px;height: 50px; margin-left: 40px;}
+main #top ul li a{padding-bottom: 14px;}
+main #top ul li a:hover{color: #EF4238;}
+main #top ul li :hover{border-bottom: 3px solid #EF4238;}
+main #top select{border: none;font-size: 1em;float: left;margin: 12px 0 0 10px;}
+main #top img{float: right;margin: 12px 10px 0 0;line-height: 50px;}
+
+/* 购票 */
+main .buy dl{width: 96%;height: 120px;margin: 6px auto;position: relative;}
+main .buy dt img{width: 20%;float: left;margin: 2% 5% 0 0;}
+main .buy dl dd:nth-of-type(1){font-size: 1.1rem; font-weight:bold;  padding:4px 0;}
+main .buy dl dd:nth-of-type(2){padding:4px 0;font-size: 0.9rem;}
+main .buy dl dd:nth-of-type(2) span{color: #FAAF00;padding-left: 5px; font-size: 1.1rem; font-weight:bold;}
+main .buy dl dd:nth-of-type(3){width: 50%;height: 15px; overflow: hidden;text-overflow: ellipsis;padding:4px 0;white-space: nowrap;font-size: 0.9rem;}
+main .buy dl dd:nth-of-type(4){padding:6px 0;font-size: 0.9rem;}
+main .buy dl dd:nth-of-type(5){float: right;position: absolute;right: 0;top: 50%;width: 15%;height: 25px;text-align: center; background: #EF4238;border-radius: 3px;margin-right: 10px;color: #fff;}
+main .buy .line{width: 70%; border-bottom: 2px solid #F4F4F4;float: right;margin-right: 5%;}
+
+/* 预售 */
+main #con .pre dl{width: 96%;height: 120px;margin: 6px auto;position: relative;}
+main #con .pre dt img{width: 20%;float: left;margin: 2% 5% 0 0;}
+main #con .pre dl dd:nth-of-type(1){font-size: 1.1rem; font-weight:bold;  padding:4px 0;}
+main #con .pre dl dd:nth-of-type(2){padding:4px 0;font-size: 0.9rem;}
+main #con .pre dl dd:nth-of-type(2) span{color: #FAAF00;padding-right: 5px; font-size: 1.1rem; font-weight:bold;}
+main #con .pre dl dd:nth-of-type(3){width: 50%;height: 15px; overflow: hidden;text-overflow: ellipsis;padding:4px 0;white-space: nowrap;font-size: 0.9rem;}
+main #con .pre dl dd:nth-of-type(4){padding:6px 0;font-size: 0.9rem;}
+main #con .pre dl dd:nth-of-type(5){float: right;position: absolute;right: 0;top: 50%;width: 15%;height: 25px;text-align: center; background: #3C9FE6;border-radius: 3px;margin-right: 10px;color: #fff;}
+main #con .pre .line{width: 70%; border-bottom: 2px solid #F4F4F4;float: right;margin-right: 5%;}
+
+/* footer */
+footer{width: 100%;height: 60px;position: fixed; bottom: 0;left: 0; border-top: 2px solid #F4F4F4;background: #fff;}
+footer img{margin: 6px 48px;}
